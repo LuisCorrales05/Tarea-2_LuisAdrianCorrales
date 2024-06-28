@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User CRUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="crud_body">
+    <div class="crud_container">
+        <h1 class="h1_crud">User CRUD</h1>
+        <form id="crud-form">
+            <div class="form-group">
+                <label class="label_crud" for="user_id">User ID:
+                    <input type="number" id="user_id" required placeholder="Enter user ID">
+                </label>
+            </div>
+            <div class="botton_crud_container">
+                <button onclick="deleteUser()">DELETE USER</button>
+                <button onclick="getUser()">GET USER</button>
+            </div>            
+            
+        </form>
+    </div>
+    <script src="crud.js"></script>
+</body>
+</html>

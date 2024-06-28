@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1>AlloyWheel Costa Rica</h1>
+        </div>
+        <div class="header-center">
+            <p class="header_info">Transform your car. Invest in premium alloy wheels from AlloyWheel. (Emphasizes the transformative power of your product)</p>
+        </div>
+        <div class="header-right">
+            <button class="header-btn" onclick="window.open('crud.html', '_blank')">CRUD</button>
+    </header>
+    
+    <div class="image-container">
+        <img src="img/alloyWheel.jpeg" alt="Image Description">
+    </div>
+
+    <div class="Slogan-container">
+        <h2 class="slogan-title">Superior Performance, Unmatched Style</h2>
+        <p class="slogan-info">AlloyWheel offers a wide range of premium alloy wheels that are sure to transform your car. Our wheels are designed to provide superior performance and unmatched style. Whether you are looking for a sporty look or a more classic design, we have the perfect wheel for you. Our wheels are made from high-quality materials and are built to last. With AlloyWheel, you can be sure that you are getting the best wheels on the market.</p>
+    </div>
+    
+
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form id="register-form">
+            <div class="form-group">
+                <label for="name">Name: 
+                    <input type="text" id="name" required placeholder="Jhon Doe">
+                </label>
+            </div class="form-group">
+                
+            <div>
+                <label for="email">Email: 
+                    <input id="email" type="email" placeholder="ejemplo@gmail.com" required>
+                </label>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" required rows="10" placeholder="Leave your message"></textarea>
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Universidad Latina de Costa Rica. All rights reserved | Luis Corrales.</p> 
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
